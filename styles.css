@@ -11,6 +11,7 @@ header {
   background: palegreen;
   padding: 2rem;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
