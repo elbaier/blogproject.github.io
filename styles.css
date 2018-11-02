@@ -30,7 +30,7 @@ nav ul {
 
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: aquamarine;
+  background: thistle;
   height: 2rem;
   width: 36rem;
   padding-top: 1rem;
@@ -44,7 +44,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: gainsboro;
+  color: black;
 }
 
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
@@ -55,7 +55,7 @@ nav ul li:active {
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page (i.e this is the dark gr section that lets you know where you are)*/
 .locationmarker {
-  background: cyan;
+  background: maroon;
 }
 
 article {
