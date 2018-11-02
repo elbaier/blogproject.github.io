@@ -1,0 +1,11 @@
+img {
+  height: 200px;
+  width: 50%;
+  align: left
+}
+
+header {
+  background: palegreen;
+  padding: 2rem;
+  text-align: center;
+}
