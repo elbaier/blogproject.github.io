@@ -11,7 +11,7 @@ header {
   background: palegreen;
   padding: 2rem;
   text-align: center;
-  font-family: 'Bitter', serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 /*Unordered list in the navbar is set to display flex with wrapping
@@ -23,7 +23,7 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 /*Sets background color of nav list elements and their width and height*/
@@ -59,16 +59,16 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
 article {
   padding-left: 2rem;
   padding-right: 2rem;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 article h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 footer {
   background: palegreen;
   padding: 2rem;
   text-align: center;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
