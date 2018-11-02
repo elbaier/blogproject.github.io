@@ -4,7 +4,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
   width: 90vw;
-  background-color: gainsboro;
+  background-color: white;
   /*a relative viewport width*/
 }
 
@@ -12,7 +12,7 @@ header {
   background: palegreen;
   padding: 2rem;
   text-align: center;
-  font-family: font-family: 'Fjalla One', sans-serif;
+  font-family:'Fjalla One', sans-serif;
   color: black;
 }
 
@@ -44,7 +44,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: white;
+  color: gainsboro;
 }
 
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
