@@ -1,10 +1,10 @@
-
 /*Sets the width of the overall page container div
 to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
-  width: 90vw; /*a relative viewport width*/
+  width: 90vw;
+  /*a relative viewport width*/
 }
 
 header {
@@ -13,6 +13,7 @@ header {
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
+
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
 and at larger screen widths it spreads more horizontally.
@@ -22,7 +23,9 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+  font-family: 'Abel', sans-serif;
 }
+
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
   background: mistyrose;
@@ -34,16 +37,19 @@ nav ul li {
   border-width: 1px;
   text-align: center;
 }
+
 /*Takes away the default underlining of links and sets color of menu font, points at a certain spot in the nav hierarchy in the html*/
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
   color: midnightblue;
 }
+
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
   background: teal;
 }
+
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page (i.e this is the dark gr section that lets you know where you are)*/
 .locationmarker {
@@ -53,10 +59,16 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
 article {
   padding-left: 2rem;
   padding-right: 2rem;
+  font-family: 'Abel', sans-serif;
+}
+
+article h2 {
+  font-family: 'Poppins', sans-serif;
 }
 
 footer {
   background: palegreen;
   padding: 2rem;
   text-align: center;
+  font-family: 'Abel', sans-serif;
 }
