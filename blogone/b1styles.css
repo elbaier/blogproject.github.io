@@ -1,13 +1,17 @@
 .naver {
-  height: 250px;
-  width: 40%;
-  float:left;
+  height: 300px;
+  width: 50%;
+  align-content: center;
+  padding-top: 1rem;
+  padding-bottom:1rem;
 }
 
 .youtube {
-  height: 250px;
-  width: 40%;
-  float:right;
+  height: 300px;
+  width: 50%;
+  align-content: center;
+  padding-top: 1rem;
+  padding-bottom:1rem;
 }
 
 header {
