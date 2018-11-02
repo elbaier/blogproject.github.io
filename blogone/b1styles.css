@@ -1,7 +1,13 @@
-img {
+.naver {
   height: 200px;
   width: 50%;
-  align: left
+  float:left;
+}
+
+.youtube {
+  height: 200px;
+  width: 50%;
+  float:right;
 }
 
 header {
