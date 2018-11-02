@@ -4,14 +4,16 @@ in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
   width: 90vw;
+  background-color: gainsboro;
   /*a relative viewport width*/
 }
 
 header {
-  background: palegreen;
+  background: greenyellow;
   padding: 2rem;
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
+  color: black;
 }
 
 /*Unordered list in the navbar is set to display flex with wrapping
@@ -28,7 +30,7 @@ nav ul {
 
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: mistyrose;
+  background: aquamarine;
   height: 2rem;
   width: 36rem;
   padding-top: 1rem;
@@ -42,18 +44,18 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: midnightblue;
+  color:black;
 }
 
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background: teal;
+  background: palegreen;
 }
 
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page (i.e this is the dark gr section that lets you know where you are)*/
 .locationmarker {
-  background: thistle;
+  background: cyan;
 }
 
 article {
@@ -67,7 +69,7 @@ article h2 {
 }
 
 footer {
-  background: palegreen;
+  background: greenyellow;
   padding: 2rem;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
