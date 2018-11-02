@@ -23,7 +23,7 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 /*Sets background color of nav list elements and their width and height*/
@@ -59,7 +59,7 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
 article {
   padding-left: 2rem;
   padding-right: 2rem;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 article h2 {
@@ -70,5 +70,5 @@ footer {
   background: palegreen;
   padding: 2rem;
   text-align: center;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
