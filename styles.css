@@ -9,11 +9,11 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background: palegreen;
+  background: white;
   padding: 2rem;
   text-align: center;
   font-family: 'PT Serif', serif;
-  color: black;
+  color: #00cc66;
 }
 
 /*Unordered list in the navbar is set to display flex with wrapping
@@ -66,6 +66,7 @@ article {
 
 article h2 {
   font-family: 'PT Serif', serif;
+  color: #ffccff; 
 }
 
 footer {
