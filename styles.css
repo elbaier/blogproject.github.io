@@ -30,7 +30,7 @@ nav ul {
 
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: thistle;
+  background: #ffccff;
   height: 2rem;
   width: 36rem;
   padding-top: 1rem;
@@ -66,7 +66,7 @@ article {
 
 article h2 {
   font-family: 'PT Serif', serif;
-  color: #ffccff; 
+  color: #00994d
 }
 
 footer {
