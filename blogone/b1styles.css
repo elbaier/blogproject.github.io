@@ -1,13 +1,13 @@
 .naver {
   height: 300px;
-  width: 50%;
+  width: 60%;
   align-content: center;
 
 }
 
 .youtube {
   height: 300px;
-  width: 50%;
+  width: 60%;
   align-content: center;
 
 }
@@ -33,4 +33,8 @@ p {
 ul li a{
   font-family: 'Montserrat', sans-serif;
   color: #00994d;
+}
+
+footer a {
+  font-family: 'PT Serif', serif;
 }
