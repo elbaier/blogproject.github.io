@@ -3,11 +3,11 @@ to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   display: grid;
-  grid-template-columns: 3fr;
+  grid-template-columns: 1.2fr;
   grid-template-rows: .2fr .2fr 1.6fr .2fr;
   margin: auto;
   width: 90vw;
-  background-color: white;
+  background-color: gainsboro;
 
   /*a relative viewport width*/
 }
@@ -15,7 +15,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 header {
   grid-row: 1;
   grid-column: 1;
-  background: white;
+  background: gainsboro;
   padding: 2rem;
   text-align: center;
   font-family: 'PT Serif', serif;
@@ -62,6 +62,11 @@ nav ul li:active {
 which page you are on--in this case the home page (i.e this is the dark gr section that lets you know where you are)*/
 .locationmarker {
   background: #ffe6ff;
+}
+
+img {
+  width: 70%
+  height: 300px;
 }
 
 section {
