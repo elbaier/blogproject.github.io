@@ -66,7 +66,7 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
 
 img {
   width: 50%
-  height: 50px;
+  height: auto;
 }
 
 section {
