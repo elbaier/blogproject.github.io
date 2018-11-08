@@ -5,7 +5,22 @@ img {
 }
 
 header {
-  background: palegreen;
+  background: white;
   padding: 2rem;
   text-align: center;
+  font-family: 'PT Serif', serif;
+  color: #ff99ff;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  color: color: #00cc66;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul li a{
+  font-family: 'Montserrat', sans-serif;
 }
