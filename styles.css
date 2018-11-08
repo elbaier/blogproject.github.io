@@ -3,7 +3,7 @@ to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   display: grid;
-  grid-template-columns: 1.2fr;
+  grid-template-columns: 1fr;
   grid-template-rows: .2fr .2fr 1.6fr .2fr;
   margin: auto;
   width: 90vw;
@@ -65,8 +65,8 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
 }
 
 img {
-  width: 70%
-  height: 300px;
+  width: 50%
+  height: 200px;
 }
 
 section {
