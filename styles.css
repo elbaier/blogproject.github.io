@@ -4,7 +4,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: .2fr .2fr 1.6fr .2fr;
+  grid-template-rows: .2fr .2fr 1fr .2fr;
   margin: auto;
   width: 90vw;
   background-color: white;
@@ -65,8 +65,8 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
 }
 
 img {
-  width: 60%
-  height: 100px;
+  width: 50%
+  height: 50px;
 }
 
 section {
