@@ -1,24 +1,40 @@
+.pagecontainer3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .2fr .2fr 1fr .2fr;
+  margin: auto;
+  width: 90vw;
+  background-color: white;
+  /*a relative viewport width*/
+}
+
 .naver {
-  height: 300px;
+  height: auto;
   width: 60%;
   align-content: center;
-
 }
 
 .youtube {
-  height: 300px;
+  height: auto;
   width: 60%;
   align-content: center;
-
 }
 
 header {
+  grid-row: 1;
+  grid-column: 1;
   background: white;
   padding: 2rem;
   text-align: center;
   font-family: 'PT Serif', serif;
   color: #ff99ff;
 }
+
+section {
+  grid-row: 3;
+  grid-column: 1;
+}
+
 
 h3 {
   font-family: 'PT Serif', serif;
@@ -30,7 +46,7 @@ p {
   color: black;
 }
 
-ul li a{
+ul li a {
   font-family: 'Montserrat', sans-serif;
   color: #00994d;
 }
