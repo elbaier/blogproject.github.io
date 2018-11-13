@@ -4,8 +4,7 @@
   grid-template-rows: .2fr .2fr 1fr .2fr;
   margin: auto;
   width: 90vw;
-  background-color: #e6fff2;
-  /*background-image: url("../images/languagewebbackground3.png");*/
+  *background-image: url("../images/languagewebbackground3.png");
   /*a relative viewport width*/
 }
 
@@ -81,11 +80,11 @@ p {
 }
 
 article {
-    background: lavender;
+    background: #ccffe6;
 }
 
-ul {
-  background: aliceblue;
+.references {
+  background: lavender;
 }
 
 ul li a {
