@@ -79,6 +79,7 @@ h3 {
 
 article {
     background: lavender;
+    passing-top: 0.5rem;
 }
 
 p {
@@ -87,7 +88,7 @@ p {
 }
 
 .references2 {
-  background: #e6fff5;
+  background: #ffe6ff;
 }
 
 ul li a {
