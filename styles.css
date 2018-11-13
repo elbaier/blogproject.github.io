@@ -8,7 +8,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
   margin: auto;
   width: 90vw;
   background-color: white;
-  background-image: url("images/languagewebbackground3.png");
+  background-image: url("images/languagewebbackground2.png");
 
   /*a relative viewport width*/
 }
@@ -16,7 +16,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 header {
   grid-row: 1;
   grid-column: 1;
-  background: white;
+  background: #ffccff;
   padding: 2rem;
   text-align: center;
   font-family: 'PT Serif', serif;
