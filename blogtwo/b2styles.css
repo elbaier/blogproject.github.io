@@ -1,30 +1,109 @@
-img {
-  height: auto;
-  width: 50%;
-  align: left
+.pagecontainer2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .2fr .2fr 1fr .2fr;
+  margin: auto;
+  width: 90vw;
+  *background-image: url("../images/languagewebbackground3.png");
+  /*a relative viewport width*/
 }
 
 header {
-  background: white;
-  padding: 2rem;
+  grid-row: 1;
+  grid-column: 1;
+  background: aliceblue;
+  padding: 1rem;
   text-align: center;
   font-family: 'PT Serif', serif;
   color: #ff99ff;
+  ;
+}
+
+
+/*Unordered list in the navbar is set to display flex with wrapping
+so at smaller size-mobile width--it wraps vertically in a row
+and at larger screen widths it spreads more horizontally.
+And justify-content centers flex blox content*/
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Sets background color of nav list elements and their width and height*/
+nav ul li {
+  background: #ffccff;
+  height: 2rem;
+  width: 36rem;
+  padding-top: 1rem;
+  border-color: black;
+  border: solid;
+  border-width: 1px;
+  text-align: center;
+}
+
+/*Takes away the default underlining of links and sets color of menu font, points at a certain spot in the nav hierarchy in the html*/
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+
+/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
+nav ul li:active {
+  background: palegreen;
+}
+
+/*This class should be applied to html differently on each page to let user know
+which page you are on--in this case the home page (i.e this is the dark gr section that lets you know where you are)*/
+.locationmarker {
+  background: #ffe6ff;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid white;
 }
 
 h3 {
+  padding: 1rem;
   font-family: 'PT Serif', serif;
   color: color: #00cc66;
 }
 
+
+article {
+    background: #ccffe6;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.references {
+  background: lavender;
 }
 
 ul li a {
   font-family: 'Montserrat', sans-serif;
+  color: #00994d;
 }
 
-footer a {
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  grid-row: 4;
+  grid-column: 1;
+  background: aliceblue;
+  padding: 1rem;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
