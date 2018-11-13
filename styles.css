@@ -8,7 +8,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
   margin: auto;
   width: 90vw;
   background-color: white;
-  background-image: url("images/languagewebbackground2.png");
+  background-image: url("images/languagewebbackground3.png");
 
   /*a relative viewport width*/
 }
@@ -66,10 +66,6 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
   background: #ffe6ff;
 }
 
-.img {
-  height: 200px;
-  width: 40%;
-}
 
 section {
   grid-row: 3;
@@ -86,6 +82,10 @@ article {
 article h2 {
   font-family: 'PT Serif', serif;
   color: #00994d
+}
+
+article img {
+  width: 50%;
 }
 
 footer {
