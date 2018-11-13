@@ -4,7 +4,7 @@
   grid-template-rows: .2fr .2fr 1fr .2fr;
   margin: auto;
   width: 90vw;
-  *background-image: url("../images/languagewebbackground3.png");
+  background-image: url("../images/languagewebbackground3.png");
   /*a relative viewport width*/
 }
 
