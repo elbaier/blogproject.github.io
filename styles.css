@@ -33,6 +33,7 @@ nav ul {
   justify-content: center;
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
+  border-color:
 }
 
 /*Sets background color of nav list elements and their width and height*/
@@ -73,6 +74,7 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
 section {
   grid-row: 3;
   grid-column: 1;
+  background-color: aliceblue;
 }
 
 article {
@@ -89,7 +91,7 @@ article h2 {
 footer {
   grid-row: 4;
   grid-column: 1;
-  background: #00cc66;
+  background: white;
   padding: 2rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
