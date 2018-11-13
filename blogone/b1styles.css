@@ -78,6 +78,11 @@ article {
     background: #ccffe6;
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
 .references {
   background: lavender;
 }
@@ -87,7 +92,7 @@ ul li a {
   color: #00994d;
 }
 
-footer a {
+footer {
   padding: 1rem;
   font-family: 'Montserrat', sans-serif;
   color: black;
