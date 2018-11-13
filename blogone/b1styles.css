@@ -100,8 +100,10 @@ a {
 }
 
 footer {
-  padding: 0.5rem;
-  font-family: 'Montserrat', sans-serif;
-  color: black;
+  grid-row: 4;
+  grid-column: 1;
   background: aliceblue;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
