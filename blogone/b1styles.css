@@ -63,8 +63,11 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
 }
 
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  border: 5px solid black;
+  border: 5px solid white;
 }
 
 h3 {
@@ -92,8 +95,12 @@ ul li a {
   color: #00994d;
 }
 
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
 footer {
-  padding: 1rem;
+  padding: 0.5rem;
   font-family: 'Montserrat', sans-serif;
   color: black;
   background: aliceblue;
