@@ -78,7 +78,7 @@ h3 {
 
 
 article {
-    background: #ccffe6;
+    background: lavender;
 }
 
 p {
@@ -103,7 +103,7 @@ footer {
   grid-row: 4;
   grid-column: 1;
   background: aliceblue;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
