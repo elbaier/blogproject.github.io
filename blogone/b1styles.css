@@ -19,35 +19,6 @@ header {
   ;
 }
 
-img {
-  width: 40%;
-  border: 5px solid black;
-}
-
-h3 {
-  font-family: 'PT Serif', serif;
-  color: color: #00cc66;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-  background: lavender;
-  color: black;
-}
-
-ul {
-  background: aliceblue;
-}
-
-ul li a {
-  font-family: 'Montserrat', sans-serif;
-  color: #00994d;
-}
-
-footer a {
-  font-family: 'Montserrat', sans-serif;
-  background: #ccffe6;
-}
 
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
@@ -89,4 +60,38 @@ nav ul li:active {
 which page you are on--in this case the home page (i.e this is the dark gr section that lets you know where you are)*/
 .locationmarker {
   background: #ffe6ff;
+}
+
+img {
+  width: 50%;
+  border: 5px solid black;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  color: color: #00cc66;
+  background: aliceblue;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+article {
+    background: lavender;
+}
+
+ul {
+  background: aliceblue;
+}
+
+ul li a {
+  font-family: 'Montserrat', sans-serif;
+  color: #00994d;
+}
+
+footer a {
+  font-family: 'Montserrat', sans-serif;
+  background: #ccffe6;
 }
