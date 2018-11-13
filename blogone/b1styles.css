@@ -73,10 +73,6 @@ h3 {
   color: color: #00cc66;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-}
 
 article {
     background: #ccffe6;
@@ -94,5 +90,6 @@ ul li a {
 footer a {
   padding: 1rem;
   font-family: 'Montserrat', sans-serif;
+  color: black;
   background: aliceblue;
 }
