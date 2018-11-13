@@ -4,7 +4,8 @@
   grid-template-rows: .2fr .2fr 1fr .2fr;
   margin: auto;
   width: 90vw;
-  background-image: url("../images/languagewebbackground3.png");
+  background-color: #e6fff2;
+  /*background-image: url("../images/languagewebbackground3.png");*/
   /*a relative viewport width*/
 }
 
@@ -68,6 +69,7 @@ img {
 }
 
 h3 {
+  padding: 1rem;
   font-family: 'PT Serif', serif;
   color: color: #00cc66;
   background: aliceblue;
@@ -92,6 +94,7 @@ ul li a {
 }
 
 footer a {
+  padding: 1rem;
   font-family: 'Montserrat', sans-serif;
-  background: #ccffe6;
+  background: aliceblue;
 }
