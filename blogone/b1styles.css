@@ -11,7 +11,7 @@
 header {
   grid-row: 1;
   grid-column: 1;
-  background: aliceblue;
+  background: #e6ffff;
   padding: 1rem;
   text-align: center;
   font-family: 'PT Serif', serif;
@@ -87,7 +87,7 @@ p {
 }
 
 .references {
-  background: lavender;
+  background: #e6ffff;
 }
 
 ul li a {
@@ -102,7 +102,8 @@ a {
 footer {
   grid-row: 4;
   grid-column: 1;
-  background: aliceblue;
+  background: lavender;
+  padding: 0.3rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
