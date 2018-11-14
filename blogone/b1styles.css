@@ -62,7 +62,7 @@ which page you are on--in this case the home page (i.e this is the dark gr secti
   background: #ffe6ff;
 }
 
-img {
+article img {
   display: block;
   margin-left: auto;
   margin-right: auto;
