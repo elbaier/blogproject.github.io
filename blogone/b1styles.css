@@ -87,7 +87,7 @@ p {
 }
 
 .references {
-  background: #e6ffff;
+  background: lavender;
 }
 
 ul li a {
@@ -102,7 +102,7 @@ a {
 footer {
   grid-row: 4;
   grid-column: 1;
-  background: lavender;
+  background:  #e6ffff;
   padding: 0.3rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
