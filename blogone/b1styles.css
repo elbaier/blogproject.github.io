@@ -1,7 +1,7 @@
 .pagecontainer3 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: .2fr .2fr 1fr .2fr;
+  grid-template-rows: .2fr .2fr 1fr .1fr;
   margin: auto;
   width: 90vw;
   background-image: url("../images/languagewebbackground3.png");
