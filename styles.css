@@ -16,7 +16,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 header {
   grid-row: 1;
   grid-column: 1;
-  background: #e6ecff;
+  background: #ffe6e6;
   padding: 1rem;
   text-align: center;
   font-family: 'PT Serif', serif;
