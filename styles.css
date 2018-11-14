@@ -20,7 +20,7 @@ header {
   padding: 1rem;
   text-align: center;
   font-family: 'PT Serif', serif;
-  color: /*#00cc66*/ black;
+  color: #00cc66;
 }
 
 /*Unordered list in the navbar is set to display flex with wrapping
@@ -81,8 +81,8 @@ article {
 
 article h2 {
   font-family: 'PT Serif', serif;
-  color: #00994d
-}
+  color: #00cc66;
+};
 
 article img {
   width: 50%;
